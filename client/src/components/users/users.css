@@ -1,0 +1,70 @@
+.users-container {
+  background-color: #fff;
+  padding: 3rem;
+  border-radius: 10px;  
+  box-shadow: 0px 0px 5px rgba(228, 206, 6, 0.5);
+  font-size: 1rem;
+  overflow: auto;
+}
+
+.underline {
+  border: 2px solid orange;
+  width: 5rem;
+  margin-bottom: 2rem;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.circle {
+  color: orange;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: separate;
+  width: 100%;
+  /* box-shadow: 0px 0px 5px rgba(16, 158, 80, 0.5); */
+  border-spacing: 0 1rem;  
+  border-radius: 10px;
+  border: 1px solid rgba(252, 195, 11, 0.5);
+}
+
+td, th {
+  text-align: left;
+  padding: 15px; 
+}
+.action {
+  text-align: center;
+}
+
+th {
+  color: #595668;
+}
+
+tr:nth-child(even) {
+  background-color:#F3C49C;
+}
+tr {
+  border-radius: 10px;
+  margin: 10px;  
+}
+tr .delete { 
+  color: rgb(177, 10, 10);
+  font-size: 1rem;
+}
+
+tr .edit { 
+  color: orange;
+  font-size: 1rem;
+}
+
+.icon-table {
+  display: flex;
+  justify-content: space-around;
+}
+
+.user-count {
+  color: orange;
+}
